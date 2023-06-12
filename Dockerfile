@@ -3,7 +3,6 @@ FROM python:3
 WORKDIR /usr/src/app
 
 COPY . .
-RUN ./Scripts/activate
 RUN pip install poetry
 RUN POETRY_VIRTUALENVS_CREATE=false poetry install
 
