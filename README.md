@@ -6,7 +6,9 @@ In terminal (venv or without):
 `pip install poetry` or `python -m pip install poetry`  
 `poetry install`   – installs all requirements  
 `uvicorn main:app` – runs a server, check it on <http://localhost>  
-Tests is working only on 
+That's all! Now you can use HTTP for requesting. Also, there is test_user_client.py, a small example of work.
+
+Tests is working only on empty (just launched) server, because they are sensitive to certain data.
 
 ## Extras
 ### Docker image
