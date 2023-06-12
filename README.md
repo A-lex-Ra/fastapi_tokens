@@ -1,7 +1,7 @@
 # FastAPI RESTful service
 ## Getting started
 Pull and open a project (tested on PyCharm).  
-Configure python interpreter/environment.  
+Configure python interpreter/environment (don't forget to activate venv if use it).  
 In terminal (venv or without):  
 `pip install poetry`  
 `poetry install`   – installs all requirements  
