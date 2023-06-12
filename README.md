@@ -2,7 +2,7 @@
 ## Getting started
 Pull and open a project (tested on PyCharm).  
 Configure python interpreter/environment.  
-From command line, in project directory:  
+In terminal (venv or without):  
 `pip install poetry`  
 `poetry install`   – installs all requirements  
 `uvicorn main:app` – runs a server, check it on <http://localhost>  
