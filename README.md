@@ -15,6 +15,6 @@ Also, there is [simple shell client](test_user_client.py), a small example of wo
 ### Tests
 Tests is working only on empty (just launched) server, because they are sensitive to certain data.
 ### Docker image
-[is here](https://hub.docker.com/repository/docker/alexrastorguev/fastapi_tokens).
-Please, run the image by command prompt, not Docker Desktop for match ports:  
+[is here](https://hub.docker.com/repository/docker/alexrastorguev/fastapi_tokens).  
+Expose inner port 80:  
 `docker run -p 80:80 alexrastorguev/fastapi_tokens`
